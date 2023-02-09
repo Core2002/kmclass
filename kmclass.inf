@@ -4,11 +4,11 @@
 
 [Version]
 Signature="$WINDOWS NT$"
-Class=Sample ; TODO: edit Class
-ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171} ; TODO: edit ClassGuid
+Class=FiFuMouse ; TODO: edit Class
+ClassGuid={A3139A52-85E2-49BE-98D3-1685DFF947FF} ; TODO: edit ClassGuid
 Provider=%ManufacturerName%
 CatalogFile=kmclass.cat
-DriverVer= ; TODO: set DriverVer in stampinf property pages
+DriverVer=2.3.3 ; TODO: set DriverVer in stampinf property pages
 
 [DestinationDirs]
 DefaultDestDir = 12
@@ -79,8 +79,8 @@ KmdfLibraryVersion = $KMDFVERSION$
 
 [Strings]
 SPSVCINST_ASSOCSERVICE= 0x00000002
-ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
-ClassName="Samples" ; TODO: edit ClassName
-DiskName = "kmclass Installation Disk"
-kmclass.DeviceDesc = "kmclass Device"
-kmclass.SVCDESC = "kmclass Service"
+ManufacturerName="NekokeCore" ;TODO: Replace with your manufacturer name
+ClassName="FiFuMouse" ; TODO: edit ClassName
+DiskName = "FiFu Mouse Installation Disk"
+kmclass.DeviceDesc = "FiFu Mouse Device"
+kmclass.SVCDESC = "FiFu Mouse Service"
